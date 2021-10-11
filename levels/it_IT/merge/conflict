@@ -5,9 +5,10 @@ cards = checkout commit-auto merge reset-hard
 
 A volte le linee temporali si contraddicono a vicenda.
 
-Per esempio, in questo caso, un nostro cliente vuole che queste linee temporali siano unite ma hanno mangiato cose differenti in entrambe le linee temporali.
+Per esempio, in questo caso, un nostro cliente vuole che queste linee temporali siano unite ma hanno mangiato cose differenti in entrambe.
 
-Prova ad unirle! Noterai che c'è un conflitto! La macchina del tempo ti lascerà decidere come procedere: puoi modificare l'elemento problematico, ti verranno mostrate le parti che vanno in conflitto. Puoi mantenere una delle due versioni o creare una combinazione di entrambe! Poi rimuovi i marcatori >>>, <<<, e === e crea un nuovo commit per finalizare l'unione!
+Prova ad unirle! Noterai che c'è un conflitto! La macchina del tempo ti lascerà decidere come procedere: puoi modificare l'elemento problematico, ti verranno mostrate le parti che vanno in conflitto.
+Puoi mantenere una delle due versioni o creare una combinazione di entrambe! Poi rimuovi i marcatori >>>, <<<, e === e crea un nuovo commit per finalizzare l'unione!
 
 La tua linea temporale definitiva è "main".
 

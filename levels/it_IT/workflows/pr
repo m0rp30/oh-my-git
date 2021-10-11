@@ -3,7 +3,7 @@ cards = clone commit-auto reset-hard checkout file-new branch
 
 [description]
 
-Il tuo amico ha un problema! Clona il repo, crea una branch chiamata "solution" e aggiusta il problema in qulla branch. Quando sei pronto crea una "Pull Request" usando `git tag pr`.
+Il tuo amico ha un problema! Clona il repo, crea una branch chiamata "solution" e aggiusta il problema in quel branch. Quando sei pronto crea una "Pull Request" usando `git tag pr`.
 
 [setup]
 

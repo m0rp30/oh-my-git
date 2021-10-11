@@ -16,7 +16,7 @@ echo "~ Chi vuole imparare come si usa la macchina del tempo? ~
 [ ] Per essere sicuro che il mio gatto non mangi il mio lavoro.
 [ ] Così non devo tenere copie di tutti i miei saggi.
 [ ] Per collaborare con altri studenti del viaggio nel tempo.
-[ ] Altro, perfavore specifica:" > form
+[ ] Altro, per favore specifica:" > form
 
 [actions]
 

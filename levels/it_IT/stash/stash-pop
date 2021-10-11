@@ -5,7 +5,7 @@ cards = checkout commit-auto merge reset-hard
 
 Quando hai nascosto le tue modifiche e vuoi riapplicarle nella tua directory di lavoro, puoi usare
     git stash pop
-Questo rimuoverà i cambiamenti dalla pila di scorta. Se voui anche mantenere le modifiche della pila di scorta usa
+Questo rimuoverà i cambiamenti dalla pila di scorta. Se vuoi anche mantenere le modifiche della pila di scorta usa
     git stash apply
 
 ---

@@ -3,7 +3,7 @@ cards = checkout add pull push commit-auto merge
 
 [description]
 
-Entrambi, tu ed il tuo amico, avete lavorato sullo stesso file e volete sincronizare!
+Entrambi, tu ed il tuo amico, avete lavorato sullo stesso file e volete sincronizzare!
 
 [setup yours]
 
@@ -29,5 +29,5 @@ test "$(git status -s)" = ""
 
 [win friend]
 
-# Quarda il suggerimento dell'amico, trova un compromesso e rimandalo in dietro.
+# Guarda il suggerimento dell'amico, trova un compromesso e rimandalo in dietro.
 git rev-parse main^ && test "$(git rev-parse main^1^)" = "$(git rev-parse main^2^)"

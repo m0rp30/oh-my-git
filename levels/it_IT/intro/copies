@@ -19,17 +19,17 @@ Fermati, devi provare questa macchina del tempo!
 
 rm -rf .git
 
-echo "~ Perchè voglio imparare Git ~
+echo "~ Perché voglio imparare Git ~
 
 (Devo ancora scriverlo.)" >> form.txt
 
 
-echo "~ Perchè volgio imparare Git ~
+echo "~ Perché voglio imparare Git ~
 
 - Così posso annullare gli errori" >> form2.txt
 
 
-echo "~ Perchè volgio imparare Git ~
+echo "~ Perché voglio imparare Git ~
 
 - Così posso annullare gli errori
 - Per tracciare i mie progetti attraverso il tempo" >> form2_final.txt
@@ -38,5 +38,5 @@ cp form2_final.txt form2_really_final.txt
 
 [win]
 
-# Aggiungi una nuova line al file form2_really_final.txt!
+# Aggiungi una nuova linea al file form2_really_final.txt!
 test "$(cat form2_really_final.txt | wc -l )" -ge 5

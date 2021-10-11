@@ -5,10 +5,10 @@ cards = commit-auto
 
 Puoi usare la tua macchina del tempo per scattare istantanee degli oggetti intorno a te! Qui puoi metterlo in pratica!
 
-(Il tuo insegnante versa un pò di acqua nel bicchiere)
+(Il tuo insegnante versa un po' di acqua nel bicchiere)
 
 [cli]
-Nuovamente, al posto di usare le carte, puoi scrivere i comandi, che sono stampati sulle carte, nel terminale in basso! 
+Nuovamente, al posto di usare le carte, puoi scrivere i comandi che sono stampati sulle carte nel terminale in basso!
 
 Questo è totalmente opzionale! Ma questa è una conoscenza super utile nel mondo reale - e ti farà avere un distintivo scintillante! :)
 
@@ -25,7 +25,7 @@ git rev-parse HEAD
 ! test "$(cat glass)" = "Il bicchiere è pieno di acqua."
 
 # E crea un secondo "commit"!
-git rev-parse HEAD^ && ! test "$(git show main:glass)" = "Il bicchiere è bieno di acqua."
+git rev-parse HEAD^ && ! test "$(git show main:glass)" = "Il bicchiere è pieno di acqua."
 
 [congrats]
 

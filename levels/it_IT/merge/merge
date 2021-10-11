@@ -3,13 +3,13 @@ cards = checkout commit-auto merge
 
 [description]
 
-Ecco un trucco per domire un pò più a lungo: svolgi tutte le tue attività mattutine in universi paralleli, e poi uniscile!
+Ecco un trucco per dormire un po' più a lungo: svolgi tutte le tue attività mattutine in universi paralleli, e poi uniscile!
 
 [setup]
 
 echo "Non hai una baguette.
 
-Non hai caffe.
+Non hai caffè.
 
 Non hai una ciambella." > you
 
@@ -18,7 +18,7 @@ git commit -m "L'inizio"
 
 echo "Hai una baguette.
 
-Non hai caffe.
+Non hai caffè.
 
 Non hai una ciambella." > you
 git add .
@@ -26,7 +26,7 @@ git commit -m "Compri una baguette"
 
 echo "Mangi una baguette.
 
-Non hai caffe.
+Non hai caffè.
 
 Non hai una ciambella." > you
 git add .
@@ -35,24 +35,24 @@ git commit -m "Mangi la baguette"
 git checkout HEAD~2
 echo "Non hai una baguette.
 
-Hai caffe.
+Hai caffè.
 
 Non hai una ciambella." > you
 git add .
-git commit -m "Compri un pò di caffe"
+git commit -m "Compri un po' di caffè"
 
 echo "Non hai una baguette.
 
-Bevi il caffe.
+Bevi il caffè.
 
 Non hai una ciambella." > you
 git add .
-git commit -m "Bevi il caffe"
+git commit -m "Bevi il caffè"
 
 git checkout HEAD~2
 echo "Non hai una baguette.
 
-Non hai caffe.
+Non hai caffè.
 
 Hai una ciambella." > you
 git add .
@@ -60,7 +60,7 @@ git commit -m "Compri una ciambella"
 
 echo "Non hai una baguette.
 
-Non hai caffe.
+Non hai caffè.
 
 Mangi una ciambella." > you
 git add .
@@ -71,8 +71,8 @@ git branch -D main
 
 [win]
 
-# Crea una situazione dove consumi una baguette, un caffe e una ciambella.
-{ git show HEAD:you | grep "Mangi.*baguette"; } && { git show HEAD:you | grep "Bevi.*caffe"; } && { git show HEAD:you | grep "Mangi.*ciambella"; }
+# Crea una situazione dove consumi una baguette, un caffè e una ciambella.
+{ git show HEAD:you | grep "Mangi.*baguette"; } && { git show HEAD:you | grep "Bevi.*caffè"; } && { git show HEAD:you | grep "Mangi.*ciambella"; }
 
 # Crea (e spostati su) un commit di unione.
 test "$(git log --pretty=%P -n 1 HEAD | wc -w)" -ge 2

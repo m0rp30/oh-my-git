@@ -3,7 +3,7 @@ cards = checkout checkout-from commit
 
 [description]
 
-Questo è un problema simile: preferivi il file "essay" del primissimo commit e vuoi riaverlo indietro! Bene, checkout puo anche recuperare le cose dai vecchi commits.
+Questo è un problema simile: preferivi il file "essay" del primissimo commit e vuoi riaverlo indietro! Bene, checkout può anche recuperare le cose dai vecchi commits.
 Così:
 
     git checkout [commit] [file]

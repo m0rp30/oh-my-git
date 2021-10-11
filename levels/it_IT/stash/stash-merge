@@ -3,7 +3,7 @@ cards = checkout commit-auto merge reset-hard
 
 [description]
 
-Quando vuoi riapplicare i cambiamenti ma hai continuato a lavora nei tuoi file, potresti ricevere un conflitto di unione! Facciamo un pò di pratica con questa situazione.
+Quando vuoi riapplicare i cambiamenti ma hai continuato a lavora nei tuoi file, potresti ricevere un conflitto di unione! Facciamo un po' di pratica con questa situazione.
 Fai uscire le modifiche dalla scorta con
     git stash pop
 e risolvi i conflitti di unione. Invia la soluzione dei cambiamenti e dopo pulisci la scorta.
