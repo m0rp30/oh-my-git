@@ -9,11 +9,11 @@ Ho già un secondo "commit" nella mia macchina del tempo - Dai lavoriamo tutti a
 
 [cli]
 
-Per tornare in dietro alle vecchie istruzioni, puoi premere la freccia in alto o in basso. In questo modo non devi digitare, nuovamente, le istruzioni.
+Per tornare in dietro alle vecchie istruzioni, puoi premere la freccia in alto o in basso. In questo modo non devi digitare nuovamente le istruzioni.
 
 [congrats]
 
-Benvenuto nella scuola del viaggio nel tepo! :) Ci vediamo domani per la tua prima lezione!
+Benvenuto nella scuola del viaggio nel tempo! :) Ci vediamo domani per la tua prima lezione!
 
 [setup]
 
@@ -28,7 +28,7 @@ git update-ref -d refs/remotes/teacher/main
 
 git reset --hard main
 
-echo " 
+echo "
 - Sam
 - Alex" >> students
 

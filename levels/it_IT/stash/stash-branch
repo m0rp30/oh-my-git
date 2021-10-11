@@ -3,7 +3,7 @@ cards = checkout commit-auto merge reset-hard
 
 [description]
 
-Se vuoi matenere tutte le modifiche ma non appartengono al ramo principale, puoi facilemnte creare un nuovo ramo dai cambiamenti dalle modifiche nascoste. Usando
+Se vuoi mantenere tutte le modifiche ma non appartengono al ramo principale, puoi facilmente creare un nuovo ramo dai cambiamenti dalle modifiche nascoste. Usando
     git stash branch <branchname> <stash>
 Se vuoi solo usare l'ultimo elemento della scorta puoi lasciare vuota l'opzione <stash>.
 

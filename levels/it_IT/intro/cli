@@ -1,5 +1,5 @@
 title = La line di comando
-cards = 
+cards =
 
 [description]
 
@@ -22,6 +22,6 @@ test -d .git
 
 [congrats]
 
-Perfetto! Al posto di usare le carte da gioco, puoi anche fare tutto dalla line di comando!
+Perfetto! Al posto di usare le carte da gioco, puoi anche fare tutto da linea di comando!
 
-La line di comando e piuttosto potente! A volte, puoi usarla per risolvere le attività più velocemente che con l'interfaccia grafica.
+La linea di comando è piuttosto potente! A volte, puoi usarla per risolvere le attività più velocemente che con l'interfaccia grafica.

@@ -3,7 +3,7 @@ cards = revert push
 
 [description]
 
-Stavamo parlando di come annulare un commit e correggerlo. Questo ci aiuta solo quando non lo abbiamo già inviato al server remoto. Quando questo succede e vuoi annullare completamente l'effetto del commit la tua migliore opzione è `git revert`
+Stavamo parlando di come annullare un commit e correggerlo. Questo ci aiuta solo quando non lo abbiamo già inviato al server remoto. Quando questo succede e vuoi annullare completamente l'effetto del commit la tua migliore opzione è `git revert`
 
 [setup]
 

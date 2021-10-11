@@ -3,14 +3,14 @@ cards = checkout commit-auto merge reset-hard
 
 [description]
 
-Alcuni dei tuoi commit potrebbero essere commit speciali. Potresti aver raggiunto un traguargo o un nuovo numero di versione.
+Alcuni dei tuoi commit potrebbero essere commit speciali. Potresti aver raggiunto un traguardo o un nuovo numero di versione.
 
-Puoi contrassegnare questo commit con un flag spegiale chiamato 'tag'.
+Puoi contrassegnare questo commit con un flag speciale chiamato 'tag'.
 
 Scrivi
 
-    git tag <tag-name> 
-    
+    git tag <tag-name>
+
 per etichettare il tuo commit.
 
 ---

@@ -10,7 +10,7 @@ Cava tutte le ragnatele che puoi trovare con la carta remove!
 
 [cli]
 
-Nella line di comando, puoi facilmente eliminare tutti i file che finiscono in "web" usando il comando:
+Nella linee di comando, puoi facilmente eliminare tutti i file che finiscono in "web" usando il comando:
 
     rm *web
 

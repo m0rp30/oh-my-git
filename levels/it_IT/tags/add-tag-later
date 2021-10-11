@@ -47,4 +47,4 @@ test "$(git show v1 -s --format=%h)" = "$(git show HEAD~1 -s --format=%h)"
 
 [congrats]
 
-Motlo bene :)
+Molto bene :)

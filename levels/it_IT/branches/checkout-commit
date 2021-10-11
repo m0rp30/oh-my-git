@@ -5,11 +5,11 @@ cards = checkout commit-auto
 
 La scatole gialle sono un punto fisso nel tempo, possiamo chiamarli "commits"! Puoi viaggiare tra loro usando la carta "checkout"! (Provala!)
 
-Puoi scoprire cosa è successo qui? Quindi, durante ultimo commit, modifica i files per risolvere il problema ed invia un nuovo commit!
+Puoi scoprire cosa è successo qui? Quindi, durante l'ultimo commit, modifica i files per risolvere il problema ed invia un nuovo commit!
 
 [cli]
 
-Guarda uno specifico commit, digita `git checkout` uno spazio e premi il tasto destro sopra il commit che vuoi!
+Guarda uno specifico commit, digita `git checkout`, uno spazio e premi il tasto destro sopra il commit che vuoi!
 
 Questo inserirà l'identificatore unico del commit!
 
@@ -40,4 +40,4 @@ git branch -df main
 
 [congrats]
 
-Stupendo! Adesso hai preso famiglirità con la macchina del tempo, vediamo situazioni più complicate...
+Stupendo! Adesso hai preso familiarità con la macchina del tempo, vediamo situazioni più complicate...
