@@ -35,4 +35,5 @@ test "$(git show main^:c)" != "c"
 
 [congrats]
 
-Well done! Try tavelling between the commits using `git checkout`, so you can look at their contents again!
+Well done! Try traveling between the commits using `git checkout`, so you can look at their contents again!
+//TODO #8

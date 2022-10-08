@@ -22,3 +22,4 @@ git add b
 
 # Make a commit where all files are deleted ¯\_(^_^)_/¯
 test "$(git ls-tree main | wc -l)" -eq 0
+// 

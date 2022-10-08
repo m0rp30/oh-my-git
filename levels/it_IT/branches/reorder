@@ -15,13 +15,13 @@ nel nome della branch e poi usare
 
 nel commit dove vuoi che la branch vada.
 
-La ciambella è nella branch giusto ma la linea temporale è incompleta - fai *mangiare* la ciambella a quella branch!
+La ciambella è nella branch giusto ma la linea temporale è incompleta - fai _mangiare_ la ciambella a quella branch!
 
 [setup]
 
 echo "Tu non hai una baguette.
 
-Non hai un caffe.
+Non hai un caffè.
 
 Non hai una ciambella." > you
 
@@ -31,7 +31,7 @@ git commit -m "L'inizio"
 git checkout -b coffee
 echo "Tu hai una baguette.
 
-Non hai un caffe.
+Non hai un caffè.
 
 Non hai una ciambella." > you
 git add .
@@ -39,7 +39,7 @@ git commit -m "Compri una ciambella"
 
 echo "Mangi una baguette.
 
-Non hai un caffe.
+Non hai un caffè.
 
 Non hai una ciambella." > you
 git add .
@@ -48,24 +48,24 @@ git commit -m "Mangi una baguette"
 git checkout -b baguette main
 echo "Non hai una ciambella.
 
-Hai un caffe.
+Hai un caffè.
 
 Non hai una ciambella." > you
 git add .
-git commit -m "Compri un pò di caffe"
+git commit -m "Compri un pò di caffè"
 
 echo "Non hai una baguette.
 
-Hai bevuto caffe.
+Hai bevuto caffè.
 
 Non hai una ciambella." > you
 git add .
-git commit -m "Bevi il caffe"
+git commit -m "Bevi il caffè"
 
 git checkout -b donut main
 echo "Non hai una baguette.
 
-Non hai caffe.
+Non hai caffè.
 
 Hai una ciambella." > you
 git add .
@@ -76,13 +76,16 @@ git checkout --detach main
 [win]
 
 # Mangi una baguette nella branch delle baguette?
-git show baguette:you | grep "Mangi.*baguette"
 
-# Bevi un caffe nella branch del caffe?
-git show coffee:you | grep "Bevi.*coffe"
+git show baguette:you | grep "Mangi.\*baguette"
+
+# Bevi un caffè nella branch del caffè?
+
+git show coffee:you | grep "Bevi.\*coffe"
 
 # Mangi una ciambella nella branch delle ciambelle?
-git show donut:you | grep "Mangi.*ciambella"
+
+git show donut:you | grep "Mangi.\*ciambella"
 
 [actions]
 

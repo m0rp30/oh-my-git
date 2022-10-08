@@ -24,7 +24,7 @@ git commit -m "L'inizio"
 # Fai una modifica alla candela
 test "$(git diff --name-only)" = "candle" || file -f .git/candle-changed && touch .git/candle-changed
 
-# Aggiungi la candella.
+# Aggiungi la candela.
 test "$(git diff --cached --name-only)" = "candle" || file -f .git/candle-added && touch .git/candle-added
 
 # Fai un commit.
