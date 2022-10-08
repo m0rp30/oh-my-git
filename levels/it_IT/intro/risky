@@ -21,7 +21,7 @@ Devi trovare una buona soluzione.
 
 rm -rf .git
 
-echo "~ Perchè voglio imparare Git ~
+echo "~ Perché voglio imparare Git ~
 
 - Così posso cancellare gli errori
 - Per seguire il mio progetto attraverso il tempo" >> form.txt

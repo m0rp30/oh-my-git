@@ -26,7 +26,7 @@ git branch -M all-at-once
 
 echo "La palla adesso tocca il libro." > ball
 echo "Il libro è caduto." > book
-echo "La candella è stata spenta." > candle
+echo "La candela è stata spenta." > candle
 
 git commit -am "La fine"
 

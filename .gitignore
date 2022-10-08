@@ -2,6 +2,7 @@
 /cache/
 /dependencies/
 /build/
+.vscode
 *~
 *.org
 #*#
