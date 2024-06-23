@@ -76,6 +76,10 @@ A level can consist of multiple repositories. To have more than one, you can use
 At this stage, we're still exploring ourselves which kind of levels would be fun! So feel free to try new things: basic introductions with a little story? Really hard puzzles? Levels where you have to find information? Levels where you need to fix a problem? Levels with three remotes?
 
 ## Add localizations
+
+TODO: Bisogna cavare i livelli dalle varie cartelle *it* ed *en* e lasciare solo *en* dopo di che si deve modificare il file 
+scene/chapter.gd per fare in modo che non cerchi i livelli nelle sotto cartella citate in precedenza.
+
 1. Add the localization text into the section "description" in the  file ./resource/cards.json
 ```
 Example:

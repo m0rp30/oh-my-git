@@ -1,0 +1,45 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-08-18 10:39+0200\n"
+"PO-Revision-Date: 2022-08-19 16:52+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.1\n"
+
+#: Levels title
+msgid "Empty sandbox"
+msgstr ""
+
+msgid "Sandbox with a remote"
+msgstr ""
+
+msgid "Sandbox with three commits"
+msgstr ""
+
+#: Levels Description
+msgid "This is an empty sandbox you can play around in."
+msgstr ""
+
+msgid "Here's a sandbox with a remote! Try pulling, fetching, or pushing!\n\nHow can you push tags and branches on a remote? How can you delete them again?"
+msgstr ""
+
+msgid "Here's a sandbox you can play around in.\n\nYou can use both the playing cards, as well as the terminal. This is a real Git terminal! Fun things to try:\n\n- Make a commit that merges three timelines together at once!\n- Create and delete some tags!\n- Make a timeline that's completely independent of the rest!"
+msgstr ""
+
+#: Levels setup
+msgid ""
+msgstr ""
+

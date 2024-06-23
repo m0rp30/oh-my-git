@@ -1,0 +1,80 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-08-18 10:39+0200\n"
+"PO-Revision-Date: 2024-06-23 23:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: Levels title
+msgid "Empty sandbox"
+msgstr "Scatola vuota"
+
+msgid "Sandbox with a remote"
+msgstr "Scatola con un remoto"
+
+msgid "Sandbox with three commits"
+msgstr "Scatola con tre commit"
+
+#: Levels Description
+msgid "This is an empty sandbox you can play around in."
+msgstr "Questa e' una scatola vuota con cui puoi giocare."
+
+msgid ""
+"Here's a sandbox with a remote! Try pulling, fetching, or pushing!\n"
+"\n"
+"How can you push tags and branches on a remote? How can you delete them "
+"again?"
+msgstr ""
+"C'e' una scatola con un remoto! Prova a prendere, recuperare o inviare\n"
+"\n"
+"Come puoi inviare i tag e i rami nel remoto? Come puoi cancellarli "
+"nuovamente?"
+
+msgid ""
+"Here's a sandbox you can play around in.\n"
+"\n"
+"You can use both the playing cards, as well as the terminal. This is a real "
+"Git terminal! Fun things to try:\n"
+"\n"
+"- Make a commit that merges three timelines together at once!\n"
+"- Create and delete some tags!\n"
+"- Make a timeline that's completely independent of the rest!"
+msgstr ""
+"C'e' una scatola con cui puoi giocare\n"
+"\n"
+"Puoi usare entrambe le carte, o meglio il terminale.Questo e' un vero "
+"terminale GiT! Divertiti a provare:\n"
+"\n"
+"- Crea un commit che unisca assieme le tre linee temporali!\n"
+"- Crea e cancella alcuni tags!\n"
+"- Crea una linea temporale completamente indipendente dal resto!"
+
+#, fuzzy
+#~| msgid "This is an empty sandbox you can play around in."
+#~ msgid "Here's a sandbox you can play around in.\\"
+#~ msgstr "Questa e' una scatola vuota con cui puoi giocare."
+
+#~ msgid ""
+#~ "title = Empty sandbo[description]This is an empty sandbox you can play "
+#~ "around in.[setup]"
+#~ msgstr ""
+#~ "title = Scatola vuota[description]Questa e' una scatola vuota con cui "
+#~ "puoi giocare.[setup]"
+
+#, fuzzy
+#~ msgid "title = Empty sandbo"
+#~ msgstr "Scatola vuota"

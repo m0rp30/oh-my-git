@@ -20,8 +20,9 @@ func load(path):
 		# This is a new-style level.
 		var config = helpers.parse(path)
 		
-		title = config.get("title", slug)
-		description = config.get("description", "(no description)")
+		title = tr(config.get("title", slug))
+		description = tr(config.get("description", "(no description)"))
+		print("### ", description, " ***")
 		
 		# Surround all lines indented with four spaces with [code] tags.
 		var monospace_regex = RegEx.new()
